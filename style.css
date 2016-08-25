@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.wrap {
+  display: table;
+  margin: 0 auto;
+}
+
+.title {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 1rem 1rem 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.kana-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  max-width: 660px;
+}
+
+.group {
+  margin-right: 1rem;
+}
+
+.group-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.space {
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: #ccc;
+}
+
+.kana-english {
+  margin-left: 2px;
+}
+
+.kana-background {
+  background-color: #fff;
+  text-align: center;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.kana {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
